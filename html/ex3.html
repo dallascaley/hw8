@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas' Example 3</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1><a href="../index.html">Link to Start Page</a></h1>
+    <h2>Dallas' Example 3</h2>
+    <h3>Send Data to a Web Server</h3>
+
+    <h2>Information about a GitHub user</h2>
+    <div id="content">
+        <label>Enter your name: </label><input type="text" id="username"/><br/>
+        <label>And a list of countries you have visited:</label><br/>
+        <div class="countryInput">
+            <label>#1: </label>
+            <input type="text" id="country1"/> 
+            Year Visited: <input type="number" min="1900" max="2099" id="year1" />
+            <button id="add1">+</button>
+        </div>
+    </div>
+    <br/><button id="submit">Submit</button>
+    <div id="response"></div>
+
+    <script src="../js/ex3.js"></script>
+</body>
+</html>
